@@ -51,7 +51,7 @@
 }
 
 .task-list-item, 
-.task-list-title {
+.section-title {
   list-style: none;
 }
 
@@ -76,8 +76,7 @@
 }
 
 /* Heading */
-.task-list-title,
-.new-task-label {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,22 +103,11 @@
   color: #333;
 }
 
-/* New Task */
-.new-task-label {
-  display: block;
-  margin: 0 0 20px;
-}
-
-.new-task-input {
-  width: 318px;
-}
-
 /* Task list */
 .task-list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
